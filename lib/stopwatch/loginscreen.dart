@@ -93,7 +93,12 @@ void _validate(){
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: A(
+        Title(color: color, child: child)
+      ),
+      body: 
+    );
 }
 }
 
