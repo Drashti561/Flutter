@@ -35,7 +35,7 @@ class _MyStopWatchState extends State<MyStopWatch> {
     if (!isRunning) {
       isRunning = true;
     }
-  }
+  }  
 
   void _stopTimer() {
     if (isRunning) {

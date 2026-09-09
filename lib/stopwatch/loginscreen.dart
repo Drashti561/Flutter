@@ -94,10 +94,12 @@ void _validate(){
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: A(
-        Title(color: color, child: child)
+      appBar: AppBar(
+        title: const Text('Login Screen'),
       ),
-      body: 
+      body: Center(
+        child: isLoggedIn ? buildSuccess() : buildLoginForm(),
+      )
     );
 }
 }
