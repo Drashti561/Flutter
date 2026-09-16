@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/registration_form.dart';
+import 'package:flutter_application_1/controls/imagesdisp.dart';
+// import 'package:flutter_application_1/registration_form.dart';
 // import 'package:flutter_application_1/controls/radioinput.dart';
 // import 'package:flutter_application_1/controls/calenderExample.dart';
 // import 'package:flutter_application_1/controls/textinput.dart';
@@ -19,7 +20,8 @@ class StopwatchExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Registration(),
+      home : ImageDisp(),
+      // home: Registration(),
       // home: RadioExample(),
       // home: TextController(),
       // home: CalenderExample(),
