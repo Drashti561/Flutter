@@ -218,33 +218,6 @@ class _RegistrationState extends State<Registration> {
 
             const SizedBox(height: 20),
 
-            // Height
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Text(
-                "Height: ${height.toInt()} cm",
-                style: const TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
-
-            Slider(
-              value: height,
-              min: 100,
-              max: 220,
-              divisions: 120,
-              label: "${height.toInt()} cm",
-              onChanged: (value) {
-                setState(() {
-                  height = value;
-                });
-              },
-            ),
-
-            const SizedBox(height: 20),
-
             // Date of Birth
             const Align(
               alignment: Alignment.centerLeft,
